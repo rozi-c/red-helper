@@ -1,0 +1,19 @@
+[divbox2=#f7f7f7][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+On behalf of the Los Santos Police Department, we are glad to inform that your application review has been concluded. The Recruitment and Employment Division has [color=#00BF00][b]APPROVED[/b][/color] your PBA and allows you to continue onto [b]STEP 2[/b] of the Applicant Stage. You may now request a Departmental Interview (DI).
+
+Within the next 24 hours you will be granted access to the [url=https://lspd.gta.world/viewforum.php?f=504]Applicant Area[/url]. In there you will discover ways to make appropriate arrangements to continue your upcoming recruitment steps, which will be your [b]Departmental Interview[/b].
+
+[b]Notes:[/b] N/A
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]

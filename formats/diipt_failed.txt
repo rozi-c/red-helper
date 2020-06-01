@@ -1,0 +1,21 @@
+[divbox2=#f7f7f7][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+On behalf of the Los Santos Police Department, we regret to inform that you have [color=#FF0000][b]FAILED[/b][/color] the Departmental Interview and Individual Physical Training stage.
+
+You must wait [b][u]14 days[/u][/b] to submit a new Preliminary Background Application.
+
+This decision may always be disputed with the Head of Recruitment. For more information, [url=https://lspd.gta.world/viewtopic.php?f=503&t=8592#p41879]visit this link[/url].
+
+[b]Notes:[/b] N/A
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]

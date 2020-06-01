@@ -1,0 +1,24 @@
+[divbox2=#f7f7f7][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+[center][i][ooc]IC / OOC[/ooc][/i][/center]
+To [i]%GND% %ANAME%[/i], [MAKE SURE YOU REMOVE THE "OOC" ABOVE IF THE BAN IS IC ONLY]
+
+You have been [color=#FF0000][b]BANNED / TEMP. BANNED / PERMANENTLY BANNED[/b][/color] from the recruitment process for the following reason(s):
+
+[list=1][*] REASON
+[*] REASON
+[*] REASON (add more or remove as needed)[/list]
+
+Please refer to the [url=https://lspd.gta.world/viewtopic.php?f=503&t=8592#p41879]Recruitment Process[/url] for more information on bans.
+
+[b]Notes:[/b] N/A
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]

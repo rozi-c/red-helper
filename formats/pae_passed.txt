@@ -1,0 +1,20 @@
+[divbox2=#f7f7f7][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+On behalf of the Los Santos Police Department, we are glad to inform that you have [color=#00BF00][b]PASSED[/b][/color] the Police Academy Examination with a score of [b]XX/XX[/b].
+
+This file will be moved within 48 hours to the Graduate Area and you will receive the [b]Police Graduate[/b] group. In there, you will find more information regarding the [b]Induction[/b].
+
+Congratulations!
+
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]

@@ -1,0 +1,20 @@
+[divbox2=white][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+Your submitted ride-along request has been [b][color=red]DENIED[/color][/b] for the following reasons:
+
+[list][*] REASON
+[/list]
+
+You may reapply after these issues have been resolved / you may not reapply for permission to go on a ride along.
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]s

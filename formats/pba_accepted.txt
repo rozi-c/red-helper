@@ -1,0 +1,15 @@
+[divbox2=#f7f7f7][center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+On behalf of the Los Santos Police Department, we are glad to inform you that your application has been [color=#00BF00][b]ACCEPTED[/b][/color] and will now be reviewed by a Senior Recruitment Officer. Allow up to 72 hours for a Senior Recruitment Officer to review your Preliminary Background Application.
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]

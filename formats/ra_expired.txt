@@ -1,0 +1,16 @@
+[divbox2=white]
+[center][img]https://i.imgur.com/HzaNCan.png[/img]
+[b][size=90]Los Santos Police Department[/size]
+[size=110]ADMINISTRATIVE SERVICES BUREAU[/size][/b]
+[/center]
+[hr][/hr]
+To [i]%GND% %ANAME%[/i],
+
+Your ride-along privileges have now [b]EXPIRED[/b]. You are allowed to re-apply if you still wish to remain in the ride-along program. From this day forward you are no longer allowed to go on a ride-along unless a new request has been accepted.
+
+Sincerely,
+[i]%FNAME% %LNAME%
+%REDRANK%
+Recruitment and Employment Division
+Administrative Services Bureau 
+Los Santos Police Department[/i][/divbox2]
