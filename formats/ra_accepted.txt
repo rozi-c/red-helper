@@ -6,7 +6,7 @@
 [hr][/hr]
 To [i]%GND% %ANAME%[/i],
 
-We are glad to inform you that your ride-along request has been [b][color=green]ACCEPTED[/color][/b]. Make sure that you have understood the guidelines and the requirements of the program. Your ride-along privileges will end on DD/MMM/YYYY. We wish you good luck on patrol!
+We are glad to inform you that your ride-along request has been [b][color=green]ACCEPTED[/color][/b]. Make sure that you have understood the guidelines and the requirements of the program. Your ride-along privileges will end on %DATE%. We wish you good luck on patrol!
 
 [i]%FNAME% %LNAME%
 %REDRANK%
