@@ -48,3 +48,20 @@ def updatePoints(fileName, totalPoints):
 
     with open(fileName, "w") as f:
         f.writelines(lines)
+
+
+def updateName():
+    with open("officer_data.txt", "r") as f:
+        data = json.load(f)
+    data['firstName'] = input("First name: ")
+    data['lastName'] = input("Last name: ")
+    with open("officer_data.txt", "w") as f:
+        json.dump(data, f)
+
+
+def updateRank():
+    with open("officer_data.txt", "r") as f:
+        data = json.load(f)
+    data['redRank'] = input("New rank:  ")
+    with open("officer_data.txt", "w") as f:
+        json.dump(data, f)

@@ -1,11 +1,38 @@
 from os import system
 from time import sleep
 import pyperclip
-from datetime import datetime
-from fileOperations import updatePoints
+from fileOperations import updatePoints, updateName, updateRank
+from datetime import datetime, timedelta
 
 
-def processFormat(officerData, appFormat):
+def monthFormat(month):
+    if month == 1:
+        return "JAN"
+    elif month == 2:
+        return "FEB"
+    elif month == 3:
+        return "MAR"
+    elif month == 4:
+        return "APR"
+    elif month == 5:
+        return "MAY"
+    elif month == 6:
+        return "JUN"
+    elif month == "7":
+        return "JUL"
+    elif month == 8:
+        return "AUG"
+    elif month == 9:
+        return "SEP"
+    elif month == 10:
+        return "OCT"
+    elif month == 11:
+        return "NOV"
+    else:
+        return "DEC"
+
+
+def processFormat(officerData, appFormat, date=False):
     applicantName = input("Applicant name: ")
     gender = input("M/F: ")
     gender = gender.upper()
@@ -17,6 +44,9 @@ def processFormat(officerData, appFormat):
     appFormat = appFormat.replace("%FNAME%", officerData["firstName"])
     appFormat = appFormat.replace("%LNAME%", officerData["lastName"])
     appFormat = appFormat.replace("%REDRANK%", officerData["redRank"])
+    if date:
+        finalDate = datetime.now() + timedelta(days=14)
+        appFormat = appFormat.replace("%DATE%", f"{finalDate.day}/{monthFormat(finalDate.month)}/{finalDate.year}")
     pyperclip.copy(appFormat)
     print("Format copied!")
     sleep(1)
@@ -111,7 +141,7 @@ def raFormats(officerData):
         if userResponse == "1":
             with open("formats/ra_accepted.txt", "r") as f:
                 appFormat = f.read()
-            processFormat(officerData, appFormat)
+            processFormat(officerData, appFormat, True)
         elif userResponse == "2":
             with open("formats/ra_denied.txt", "r") as f:
                 appFormat = f.read()
@@ -193,7 +223,8 @@ def diPoints(fileName, totalPoints):
     while True:
         system("cls")
         print("Add DI/IPT-related points:")
-        print("(1) Conducting DI - (2) Conducting IPT - (3) Approving DI+IPT - (0) Back")
+        print("(1) Conducting DI - (2) Conducting IPT - (3) Approving DI+IPT - (4) Conducting DI(/w Probie) (5) "
+              "Conducting IPT (/w Probie) - (0) Back")
         userResponse = input()
         link = "NULL"
         if userResponse != "0":
@@ -216,6 +247,20 @@ def diPoints(fileName, totalPoints):
             with open(fileName, "a") as f:
                 f.write(f"[*] RED - Approving DI+IPT (2 pt.) - [url={link}]ACCESS[/url]\n")
             totalPoints[0] += 2
+            updatePoints(fileName, totalPoints[0])
+            print("Point added!")
+            sleep(1)
+        elif userResponse == "4":
+            with open(fileName, "a") as f:
+                f.write(f"[*] RED - Conducting DI with Probationary Officer (4 pt.) - [url={link}]ACCESS[/url]\n")
+            totalPoints[0] += 4
+            updatePoints(fileName, totalPoints[0])
+            print("Point added!")
+            sleep(1)
+        elif userResponse == "5":
+            with open(fileName, "a") as f:
+                f.write(f"[*] RED - Conducting IPT with Probationary Officer (4 pt.) - [url={link}]ACCESS[/url]\n")
+            totalPoints[0] += 4
             updatePoints(fileName, totalPoints[0])
             print("Point added!")
             sleep(1)
@@ -364,4 +409,18 @@ def showTracker(totalPoints, fileName):
         elif userResponse == "2":
             copyPoints(fileName)
         elif userResponse == "0":
+            break
+
+
+def updateDetails():
+    while True:
+        system("cls")
+        print("Update details:")
+        print("(1) Name - (2) Rank - (0) Back")
+        userResponses = input()
+        if userResponses == "1":
+            updateName()
+        elif userResponses == "2":
+            updateRank()
+        elif userResponses == "0":
             break
