@@ -18,7 +18,7 @@ def monthFormat(month):
         return "MAY"
     elif month == 6:
         return "JUN"
-    elif month == "7":
+    elif month == 7:
         return "JUL"
     elif month == 8:
         return "AUG"
