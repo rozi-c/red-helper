@@ -230,19 +230,43 @@ def diPoints(fileName, totalPoints):
         if userResponse != "0":
             link = input("Link to application: ")
         if userResponse == "1":
-            with open(fileName, "a") as f:
-                f.write(f"[*] RED - Conducting DI (3 pt.) - [url={link}]ACCESS[/url]\n")
-            totalPoints[0] += 3
-            updatePoints(fileName, totalPoints[0])
-            print("Point added!")
-            sleep(1)
+            print("(1) Scheduled - (2) Impromptu")
+            diType = input()
+            while diType != "1" and diType != "2":
+                diType = input("(1) Scheduled - (2) Impromptu")
+            if diType == "2":
+                with open(fileName, "a") as f:
+                    f.write(f"[*] RED - Conducting Impromptu DI (3 pt.) - [url={link}]ACCESS[/url]\n")
+                totalPoints[0] += 3
+                updatePoints(fileName, totalPoints[0])
+                print("Point added!")
+                sleep(1)
+            elif diType == "1":
+                with open(fileName, "a") as f:
+                    f.write(f"[*] RED - Conducting Scheduled DI (4 pt.) - [url={link}]ACCESS[/url]\n")
+                totalPoints[0] += 4
+                updatePoints(fileName, totalPoints[0])
+                print("Point added!")
+                sleep(1)
         elif userResponse == "2":
-            with open(fileName, "a") as f:
-                f.write(f"[*] RED - Conducting IPT (3 pt.) - [url={link}]ACCESS[/url]\n")
-            totalPoints[0] += 3
-            updatePoints(fileName, totalPoints[0])
-            print("Point added!")
-            sleep(1)
+            iptType = input("(1) Scheduled - (2) Impromptu")
+            while iptType != "1" and iptType != "2":
+                print("(1) Scheduled - (2) Impromptu")
+                iptType = input()
+            if iptType == "2":
+                with open(fileName, "a") as f:
+                    f.write(f"[*] RED - Conducting Impromptu IPT (3 pt.) - [url={link}]ACCESS[/url]\n")
+                totalPoints[0] += 3
+                updatePoints(fileName, totalPoints[0])
+                print("Point added!")
+                sleep(1)
+            elif iptType == "2":
+                with open(fileName, "a") as f:
+                    f.write(f"[*] RED - Conducting Scheduled IPT (4 pt.) - [url={link}]ACCESS[/url]\n")
+                totalPoints[0] += 4
+                updatePoints(fileName, totalPoints[0])
+                print("Point added!")
+                sleep(1)
         elif userResponse == "3":
             with open(fileName, "a") as f:
                 f.write(f"[*] RED - Approving DI+IPT (2 pt.) - [url={link}]ACCESS[/url]\n")
